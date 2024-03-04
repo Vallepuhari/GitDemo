@@ -1,0 +1,28 @@
+package Test;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class day4 {
+
+	@Parameters({"URL"})
+	@Test
+	public void WebLoginHomeloan(String uname) {
+
+		System.out.println("WebLoginHomePersonalloan");
+		System.out.println(uname);
+	}
+
+	@Test(groups = { "smoke" })
+	public void MobileLoginHomeloan() {
+
+		System.out.println("MobileLoginHome");
+	}
+
+	@Test
+	public void APILoginHomeloan() {
+
+		System.out.println("APILoginHome");
+
+	}
+}
