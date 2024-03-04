@@ -25,4 +25,11 @@ public class day4 {
 		System.out.println("APILoginHome");
 
 	}
+	
+	@Test
+	public void Demo2(){
+		System.out.println("HI");
+		System.out.println("HI1");
+		System.out.println("HI2");
+	}
 }
